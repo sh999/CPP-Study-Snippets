@@ -1,3 +1,5 @@
 # My addition
 *
-!*.cpp
+!/*/*/*.cpp
+!/*/*.cpp
+!/*.cpp
