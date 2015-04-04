@@ -10,7 +10,7 @@ void change(int *z){
 
 int main(){
 	int a = 33;
-	change(&a);	// Pass address so that the value can be changed
+	change(&a);	// Pass address so that the value can be changed. Passing a itself won't work (see function's parameter, which is a pointer)
 	cout << a;
 }
 
