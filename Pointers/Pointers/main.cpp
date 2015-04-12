@@ -1,18 +1,13 @@
-//
-//  main.cpp
-//  Pointers
-//
-//  Created by Satrio on 4/9/15.
-//  Copyright (c) 2015 Satrio. All rights reserved.
-//
-
+/*
+ Initialize an integer and a pointer to the integer
+ Change the integer value by manipulating the pointer
+ */
 #include <iostream>
-
-int main(int argc, const char * argv[])
-{
-
-    // insert code here...
-    std::cout << "Hello, World!\n";
-    return 0;
+using namespace std;
+int main(){
+    int *ptr;
+    int val = 50;
+    ptr = &val; // Pointer initialized as address of integer
+    *ptr = 33;  // Changing val through ptr by the dereference operator
+    cout << val;
 }
-
