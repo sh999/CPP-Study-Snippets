@@ -16,4 +16,5 @@ int main(){
     for(a = intSet.begin(); a != intSet.end(); a++){
         cout << *a << endl;;
     }
+    insert
 }
