@@ -18,10 +18,9 @@ public:
 
 int main() {
   IntStack is;
-  // Add some Fibonacci numbers, for interest:
-  for(int i = 0; i < 20; i++)
+  for(int i = 0; i < 5; i++)
     is.push(i);
   // Pop & print them:
-  for(int k = 0; k < 20; k++)
+  for(int k = 0; k < 5; k++)
     cout << is.pop() << endl;
 } ///:~
