@@ -17,9 +17,11 @@ int main(){
 	std::regex word_regex("(\\S+)");
     /*
     Pattern explanation:
-    \S not whitespace
+    \S any non white space character
     */
 	auto words_begin = std::sregex_iterator(s.begin(), s.end(), word_regex);
 	auto words_end = std::sregex_iterator();
 	std::cout << "Found " << distance(words_begin, words_end) << " words." << std::endl;
+
+	
 }
