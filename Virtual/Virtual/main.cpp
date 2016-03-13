@@ -13,6 +13,7 @@ public:
         cout << "Base unit shoots\n";
     }
     virtual void jump(){
+        // Since this is virtual, a derived class overrides the base class function
         cout << "Base unit jumps\n";
     }
     
