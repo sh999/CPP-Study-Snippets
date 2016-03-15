@@ -23,8 +23,8 @@ public:
         width = a;
         height = b;
     }
-    int area(){
-// virtual int area(){  // Using virtual will cause in the inherited area() to be called instead of this one
+    // int area(){
+virtual int area(){  // Using virtual will cause in the inherited area() to be called instead of this one
         cout << "\nCalling shape area";
         return 0;
     }
